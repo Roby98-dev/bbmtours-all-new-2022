@@ -569,6 +569,26 @@ video {
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 }
+.my-2 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.my-3 {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+.my-5 {
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+.mx-5 {
+	margin-left: 1.25rem;
+	margin-right: 1.25rem;
+}
+.mx-10 {
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
 .mt-10 {
 	margin-top: 2.5rem;
 }
@@ -607,6 +627,9 @@ video {
 }
 .h-8 {
 	height: 2rem;
+}
+.max-h-6 {
+	max-height: 1.5rem;
 }
 .max-w-md {
 	max-width: 28rem;
@@ -752,6 +775,9 @@ video {
 .bg-center {
 	background-position: center;
 }
+.bg-no-repeat {
+	background-repeat: no-repeat;
+}
 .p-6 {
 	padding: 1.5rem;
 }
@@ -786,6 +812,14 @@ video {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+.py-20 {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.px-2 {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
 .py-5 {
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
@@ -804,6 +838,9 @@ video {
 }
 .text-center {
 	text-align: center;
+}
+.text-justify {
+	text-align: justify;
 }
 .text-4xl {
 	font-size: 2.25rem;
@@ -825,17 +862,27 @@ video {
 	font-size: 1rem;
 	line-height: 1.5rem;
 }
+.text-2xl {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
 .font-bold {
 	font-weight: 700;
 }
 .font-extrabold {
 	font-weight: 800;
 }
+.font-semibold {
+	font-weight: 600;
+}
 .uppercase {
 	text-transform: uppercase;
 }
 .leading-tight {
 	line-height: 1.25;
+}
+.tracking-wide {
+	letter-spacing: 0.025em;
 }
 .text-white {
 	--tw-text-opacity: 1;
@@ -844,6 +891,14 @@ video {
 .text-gray-800 {
 	--tw-text-opacity: 1;
 	color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+.text-gray-500 {
+	--tw-text-opacity: 1;
+	color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+.text-gray-700 {
+	--tw-text-opacity: 1;
+	color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 .shadow-lg {
 	--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -994,5 +1049,10 @@ video {
 	.md\:text-xl {
 		font-size: 1.25rem;
 		line-height: 1.75rem;
+	}
+
+	.md\:text-white {
+		--tw-text-opacity: 1;
+		color: rgba(255, 255, 255, var(--tw-text-opacity));
 	}
 }
